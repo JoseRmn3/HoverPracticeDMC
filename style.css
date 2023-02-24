@@ -1,0 +1,26 @@
+body{
+    background-color: #030312;
+}
+
+section {
+    display: flex;
+    width: 999px;
+    height: 500px;
+    margin: auto;
+    margin-top: 4%;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .4s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
